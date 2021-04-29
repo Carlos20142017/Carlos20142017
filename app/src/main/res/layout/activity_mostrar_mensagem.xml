@@ -8,10 +8,23 @@
     tools:context=".MostrarMensagem">
 
     <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#2196F3"
+        android:text="@string/dados_recebidos_com_sucesso"
+        android:textColor="@color/purple_700"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
         android:id="@+id/textViewNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:textColorLink="#3D51BC"
         tools:text="Nome" />
 
     <TextView
@@ -34,4 +47,5 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         tools:text="Idade" />
+
 </LinearLayout>

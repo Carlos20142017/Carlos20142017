@@ -5,4 +5,5 @@
     <string name="telefone">Telefone</string>
     <string name="idade">Idade</string>
     <string name="enviar">Enviar</string>
+    <string name="dados_recebidos_com_sucesso">Dados recebidos com sucesso!</string>
 </resources>

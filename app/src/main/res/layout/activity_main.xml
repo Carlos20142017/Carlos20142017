@@ -7,6 +7,16 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/preencha_os_dados_pessoais"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#143B9F" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayoutNome"
@@ -62,9 +72,12 @@
 
     <Button
         android:id="@+id/buttonEnviar"
-        android:layout_width="match_parent"
+        android:layout_width="125dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_margin="8dp"
         android:onClick="EnviarMensagem"
         android:text="@string/enviar" />
+
+
 </LinearLayout>

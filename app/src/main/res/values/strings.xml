@@ -6,4 +6,5 @@
     <string name="idade">Idade</string>
     <string name="enviar">Enviar</string>
     <string name="dados_recebidos_com_sucesso">Dados recebidos com sucesso!</string>
+    <string name="preencha_os_dados_pessoais">Preencha os Dados Pessoais</string>
 </resources>
